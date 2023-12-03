@@ -1,0 +1,10 @@
+  .blue{
+    height: 300px;
+    margin-top: 200px;
+    box-shadow: 20px 20px 55px rgba(10, 10, 32, 0.6);
+    padding: 60px;
+  }
+ .number,
+  .row h3{
+    color: rgb(244, 254, 145);
+  }
