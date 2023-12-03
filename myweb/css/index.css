@@ -118,7 +118,7 @@ html,body{
     border:1.5px solid rgb(132, 40, 212);
 }
 .gallery1{
-    top:50%;
+    margin-top: -17%;
 }
 .gallery1 img{
     height:410px;
