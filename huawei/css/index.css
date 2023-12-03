@@ -1,0 +1,228 @@
+@font-face {
+    font-family: "Huawei Sans";
+    src: url("https://db.onlinewebfonts.com/t/08dd84ac7cbc31484a901d60c8c2c205.eot");
+    src: url("https://db.onlinewebfonts.com/t/08dd84ac7cbc31484a901d60c8c2c205.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/08dd84ac7cbc31484a901d60c8c2c205.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/08dd84ac7cbc31484a901d60c8c2c205.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/08dd84ac7cbc31484a901d60c8c2c205.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/08dd84ac7cbc31484a901d60c8c2c205.svg#Huawei Sans")format("svg");
+}
+@media all and (max-width:340px) {
+    .brrrrrr {
+        display: block;
+    }
+}
+@media all and (min-width:340px) {
+    .brrrrrr {
+        display: none;
+    }
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+.container-fluid{
+    box-sizing: border-box;
+    outline: 0;
+}
+ul,
+ol{
+    list-style: none;
+}
+html,
+body {
+    font-family: "Huawei Sans";
+}
+.content-box .panel-img-box .text-box .name,
+.col-item .textbox .title,
+.news-item a h4 {
+    font-family: "Huawei Sans";
+    font-weight: normal !important;
+}
+
+@media (min-width: 992px) {
+    .index-banner .slick .slide a.btn-more {
+        min-width: 180px;
+    }
+}
+.search{
+    margin-right:20%;
+}
+    .nav-link.active {
+        border-bottom: 2px solid #007bff; /* Change the color as needed */
+      }
+    .nav-link:hover .bi-chevron-down{
+        display: inline-block;
+    } 
+    .nav-link.active .bi-chevron-up{
+        display: inline-block;
+      }
+      .bi-chevron-up,
+      .bi-chevron-down{
+        display: none;
+    } 
+
+   .navbar-toggler{
+    border:none;
+    }
+/* banner learn more*/
+    .l1{
+        width:13vw;
+        font-size: 0.875em;
+    }
+    .l1:hover,
+    .l2:hover,
+    .l3:hover,
+    .l4:hover{
+        background-color: #dc3545;
+        border-color: #dc3545;
+        color:white;
+    }
+/* whats new*/
+.whatline {
+    width: 46px;
+    height: 2px;
+    background-color: #c7000b;
+}
+/*gallery*/
+p {
+    text-align: justify;
+    line-height: 20px;
+    font-family: sans-serif;
+    color: white;
+    bottom: 20%;
+}
+h4{
+    bottom: 13%;
+    color: white;
+}
+.content{
+    color: white;
+}
+.content:hover .image img{
+    transform: scale(1.02);
+}
+.mask{
+    background: linear-gradient(0deg , #000000 0%, #000000 65%,#00000000 100%);
+    top:80%;
+    transition: 0.5s;
+}
+.content:hover .mask{
+    top:72%;
+}
+.content:hover .mask2{
+    top:62%;
+}
+.mask3{
+    top:0;
+}
+/*gallery*/
+.carousel-indicators [data-bs-target]{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #00000000;
+    border: 2px solid white;
+}
+
+.carousel .carousel-indicators button {
+   width: 15px;
+   height: 15px;
+   border-radius: 100%;
+   background-color: white;
+ }
+ .card{
+    border-radius: 0;
+ }
+ .card-img-top{
+    border-radius: 0;
+ }
+ /*banner2*/
+ .l2,
+ .l3,
+ .l4{
+    background-color: #00000000;
+    border:1px solid black;
+ }
+ /*news*/
+ .rownews i{
+    font-family: sans-serif;
+    font-style: normal;
+ }
+ .scrollspyHeading{
+    color: #000000;
+ }
+ .scroll{
+    border:1px solid  rgba(138, 133, 133, 0.307);
+ }
+ .scroll p{
+    color:rgb(58, 57, 57);
+}
+ .scrollho:hover h5,
+ .scrollho:hover p{
+    color:#dc3545;
+ }
+ .rowbutton{
+    top: 80px;
+    bottom: 80px;
+    padding-bottom: 70px;
+    padding-top: 20px;
+ }
+ .line{
+    height:2px;
+    background-color:  rgba(151, 146, 146, 0.307);
+ }
+
+ ul.horizontal-border-bottom {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+  }
+
+  ul.horizontal-border-bottom li {
+    flex: 1;
+    border-bottom: 2px solid  rgba(151, 146, 146, 0.307);
+    box-sizing: border-box;
+  }
+  .accordion-button {
+    background-color: 	RGB(248, 249, 250);
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: 	RGB(248, 249, 250);
+  }
+.go-right{
+    aniiaitooooooooooooooooooooooooooooooooooooooooooooooooooooon
+}
+
+  .social{
+  color: rgb(106, 118, 131);
+  }
+  .social:hover{
+   color:rgb(71, 68, 68);
+  }
+
+  .bottom{
+    background-color: #d1c7c7;
+  }
+  .arrow{
+    background-color: #7b7b7b;
+    width: 44px;
+    height: 44px;
+    bottom: 20%;
+    right: 0;
+    z-index: 2000;
+  }
+  .answer{
+    background-color: rgb(226, 69, 69);
+    width: 44px;
+    height: 44px;
+    bottom: 28%;
+    right: 0;
+    z-index: 2000;
+  }
+  
