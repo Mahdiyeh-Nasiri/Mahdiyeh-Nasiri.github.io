@@ -225,4 +225,15 @@ h4{
     right: 0;
     z-index: 2000;
   }
+  .r1:hover img,
+  .r2:hover img{
+    transform: scale(1.02);
+}
+.newsgrey{
+    height: 30px;
+    background-color: #818181;
+    top:0;
+    left:0;
+    z-index: 1000;
+}
   
