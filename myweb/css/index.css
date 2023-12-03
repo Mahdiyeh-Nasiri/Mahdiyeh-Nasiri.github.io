@@ -126,3 +126,8 @@ html,body{
 .btn-outline-primary{
     border-radius: 0;
 }
+.gerdali{
+    right: 16%;
+    top:-14%;
+    z-index: 2;
+}
