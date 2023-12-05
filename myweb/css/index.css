@@ -1,4 +1,82 @@
 
+
+@font-face {
+    font-family: 'muliregular';
+    src: url('../font/webfontkit-20231202-123258/muli-webfont.woff2') format('woff2'),
+         url('../font/webfontkit-20231202-123258/muli-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'mulibold';
+    src: url('../font/webfontkit-20231202-123258/muli-bold-webfont.woff2') format('woff2'),
+         url('../font/webfontkit-20231202-123258/muli-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'mulibolditalic';
+    src: url('../font/webfontkit-20231202-123258/muli-bolditalic-webfont.woff2') format('woff2'),
+         url('../font/webfontkit-20231202-123258/muli-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'muliextralight';
+    src: url('../font/webfontkit-20231202-123258/muli-extralight-webfont.woff2') format('woff2'),
+         url('../font/webfontkit-20231202-123258/muli-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'muliextralightitalic';
+    src: url('../font/webfontkit-20231202-123258/uli-extralightitalic-webfont.woff2') format('woff2'),
+         url('../font/webfontkit-20231202-123258/muli-extralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'muliregularitalic';
+    src: url('../font/webfontkit-20231202-123258/muli-italic-webfont.woff2') format('woff2'),
+         url('../font/webfontkit-20231202-123258/muli-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'mulilight';
+    src: url('../font/webfontkit-20231202-123258/muli-light-webfont.woff2') format('woff2'),
+         url('../font/webfontkit-20231202-123258/muli-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mulilightitalic';
+    src: url('../font/webfontkit-20231202-123258/muli-lightitalic-webfont.woff2') format('woff2'),
+         url('../font/webfontkit-20231202-123258/muli-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'mulisemibold';
+    src: url('../font/webfontkit-20231202-123258/muli-semibold-webfont.woff2') format('woff2'),
+         url('../font/webfontkit-20231202-123258/muli-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mulisemibolditalic';
+    src: url('../font/webfontkit-20231202-123258/muli-semi-bolditalic-webfont.woff2') format('woff2'),
+         url('../font/webfontkit-20231202-123258/muli-semi-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 @font-face {
     font-family: 'muliregular';
     src: url('../font/webfontkit-20231202-123258/muli-webfont.woff2') format('woff2'),
@@ -17,7 +95,8 @@ html,body{
     box-sizing: border-box;
 }
 .tf2{
-    font-size: calc(2vw + 2px);
+    font-size: calc(1.5vw + 1px);
+    font-family: 'muliextralight';
 }
 .tf3{
     font-size: calc(3vw + 5px);
@@ -40,8 +119,8 @@ html,body{
 }
 
 .line{
-    width: 2px;
-    height:60px;
+    width: 1px;
+    height:75px;
 }
 .boxes{
     border:1px solid rgba(195, 190, 190, 0.413);
