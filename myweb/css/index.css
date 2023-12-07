@@ -237,8 +237,15 @@ html,body{
 
 /*quotation*/
     .quotation{
-        background: url(../images/banner.png.webp);
+        background: url(../images/bannerkeyboard.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+    }
+    .carousel p{
+        font-size: calc(1vw + 8px);
+    }
+    .carousel h3,
+    .carousel span{
+        font-size: calc(1vw + 2px);
     }
