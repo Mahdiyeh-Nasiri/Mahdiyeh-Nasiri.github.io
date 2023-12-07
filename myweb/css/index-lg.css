@@ -7,6 +7,11 @@
 .vbox{
     width: 288px;
 }
+/*viewer*/
+.viewer{
+    padding-top: 75px;
+    padding-bottom: 120px;
+}
 .quotation{
     padding-top: 130px;
     padding-bottom: 130px;
