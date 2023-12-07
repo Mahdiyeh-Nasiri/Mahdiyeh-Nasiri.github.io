@@ -104,8 +104,6 @@ html,body{
     line-height: 60px;
     font-weight: bolder;
 }
-
-
 .mainimage{
     background:url(../images/boyheader.jpg);
     background-repeat: no-repeat;
@@ -138,17 +136,12 @@ html,body{
     z-index: 2;
 }
 
-
-
-
 .bigimagebox{
     margin-top:-370px;
 }
 
 .bigimagebox .oneimage {
-    position: relative;
     margin-bottom: 20px;
-    overflow: hidden;
 }
 
 .bigimagebox .oneimage .aks {
@@ -160,7 +153,7 @@ html,body{
     height: 100%;
 }
 
-.bigimagebox .oneimage .page2 {
+.bigimagebox .oneimage .page2{
     left: 0;
     top: 0;
     background: rgba(159, 92, 253, 0.6);
