@@ -130,11 +130,6 @@ html,body{
 .btn-outline-primary{
     border-radius: 0;
 }
-.gerdali{
-    right: 16%;
-    top:-14%;
-    z-index: 2;
-}
 
 .bigimagebox{
     margin-top:-370px;
@@ -189,3 +184,56 @@ html,body{
     transform: translateX(0%);
     opacity: 1;
 }
+/*about*/
+    .about{
+        padding-top: 75px;
+        padding-bottom: 150px;
+    }
+    .about-text h3 {
+        font-weight: 700;
+        font-family: 'mulibold';
+        font-size: 50px;
+        line-height: 60px;
+    }
+    
+    .about-text p {
+        color: rgb(101, 101, 101);
+        font-size: 17px;
+        line-height: 28px;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 20px;
+        margin-bottom: 36px;
+    }
+    .dn-cv a {
+        display: block;
+        width: 200px;
+        height: 70px;
+        color: #fff;
+        border: 1px solid #975cfd;
+        background-color: #975cfd;
+        font-size: 19px;
+        font-family: 'mulilight';
+        font-weight: 400;
+        line-height: 70px;
+        transition: 0.3s;
+    }
+    
+    .dn-cv a:hover {
+        color: #975cfd;
+        background-color: #fff;
+        transition: 0.3s;
+    }
+    .backtext{
+        font-size: calc(20vw + 10px);
+        font-weight: 700;
+        margin-left: 22%;
+        opacity: 10%;
+        top:-70px;
+    }
+    .gerdali{
+        right: 0%;
+        bottom:50%;
+        z-index: 2;
+    }
+    
