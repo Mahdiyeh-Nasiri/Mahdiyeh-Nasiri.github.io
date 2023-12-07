@@ -236,4 +236,12 @@ html,body{
         bottom:50%;
         z-index: 2;
     }
+
+/*quotation*/
+    .quotation{
+        background: url(../images/banner.png.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
     
