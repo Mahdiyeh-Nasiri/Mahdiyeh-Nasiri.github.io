@@ -99,9 +99,9 @@ html,body{
     font-family: 'muliextralight';
 }
 .tf3{
-    font-size: calc(3vw + 5px);
+    font-size: calc(3vw + 7px);
     font-weight: 700;
-    line-height: 40px;
+    line-height: 60px;
     font-weight: bolder;
 }
 
@@ -129,12 +129,6 @@ html,body{
 .boxes:hover{
     border:1.5px solid rgb(132, 40, 212);
 }
-.gallery1{
-    margin-top: -17%;
-}
-.gallery1 img{
-    height:410px;
-}
 .btn-outline-primary{
     border-radius: 0;
 }
@@ -147,7 +141,9 @@ html,body{
 
 
 
-
+.bigimagebox{
+    margin-top:-370px;
+}
 
 .bigimagebox .oneimage {
     position: relative;
