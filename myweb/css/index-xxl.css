@@ -1,6 +1,16 @@
 .mainimage{
     height: 900px;
 }
+.grid{
+    bottom: 200px;
+    right: 161px;
+}
+.person{
+    width: 894px;
+    height:  894px;
+    top: 42px;
+    left: 0;
+}
 /*boxes*/
 .boxes{
     width: 278px;

@@ -102,11 +102,43 @@ ul,li{
     border-radius: 0;
 }
 .mainimage{
-    background:url(../images/boyheader.jpg);
+    background:url(../images/banner.png.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+.heading-slider-1 {
+    top: 170px;
+}
+
+.heading-slider h3 {
+    font-size: 30px;
+    font-family: "mulibold";
+    font-weight: 500;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.heading-slider span {
+    font-size: 16px;
+    font-family: "muliregular";
+    font-weight: 500;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.heading-slider span::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #ffffff;
+    display: block;
+    position: absolute;
+    left: -60px;
+    top: 12px;
+}
+
+/*    */
 .bordcir{
     width: 38px;
     height: 38px;

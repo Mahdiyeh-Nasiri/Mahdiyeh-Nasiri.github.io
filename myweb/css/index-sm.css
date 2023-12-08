@@ -1,6 +1,12 @@
 .mainimage{
     height: 500px;
 }
+.person{
+    width: 344px;
+    height: 344px;
+    top: 52px;
+    left: 0;
+}
 /*blackbox*/
 .blackbox{
     padding-top: 60px;

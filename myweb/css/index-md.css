@@ -1,6 +1,12 @@
 .mainimage{
     height: 620px;
 }
+.person{
+    width: 434px;
+    height: 434px;
+    top: 102px;
+    left: 0;
+}
 /*boxes*/
 .boxes{
     width: 168px;

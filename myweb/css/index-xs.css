@@ -1,5 +1,11 @@
 .mainimage{
-    height: 500px;
+    height: 350px;
+}
+.person{
+    width: 284px;
+    height: 284px;
+    top: 12px;
+    left: 0;
 }
 /*blackbox*/
 .blackbox{
