@@ -113,12 +113,21 @@ ul,li{
     background-size: cover;
     background-position: center;
 }
+.bordcir{
+    border: 1px solid white;
+}
+.bordcir:hover{
+    border: 1px solid transparent;
+    background-image:linear-gradient(0deg, rgba(195,34,189,1) 0%, rgba(45,154,253,1) 100%);
+}
+.social{
+    right: 40px;
+}
 .btn1{
     background-color: rgb(199, 59, 199);
     border: none;
     border-radius: 0;
 }
-
 .line{
     width: 1px;
     height:75px;
