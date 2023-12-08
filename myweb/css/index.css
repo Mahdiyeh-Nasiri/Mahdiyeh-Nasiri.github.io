@@ -160,6 +160,10 @@ ul,li{
             color: #5b626a;
             font-size: calc(1vw + 3px);
         }
+/*blackbox*/
+        .blackbox{
+            background-color: rgb(18, 18, 39);
+        }
 
 .btn-outline-primary{
     border-radius: 0;
