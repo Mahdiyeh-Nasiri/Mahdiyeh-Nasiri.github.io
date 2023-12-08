@@ -251,7 +251,26 @@ html,body{
     }
 /*discuss*/
 .discuss{
-    background-color:  #212c36;
+    background-color:  rgb(20, 36, 51);
     padding-top: 150px;
     padding-bottom: 50px;
+}
+.dsc-btn {
+    background: #615CFD;
+    padding: 14px 38px;
+    font-family: 'muliregular';
+    font-weight: 500;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.dsc-btn:hover {
+    border: 1px solid #615CFD;
+    color: #615CFD !important;
+    background: transparent;
 }
