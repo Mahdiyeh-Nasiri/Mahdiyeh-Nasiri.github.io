@@ -157,7 +157,8 @@ ul,li{
         }
         .boxes p{
             font-family: 'mulilight';
-            font-size: calc(1vw + 4px);
+            color: #5b626a;
+            font-size: calc(1vw + 3px);
         }
 
 .btn-outline-primary{

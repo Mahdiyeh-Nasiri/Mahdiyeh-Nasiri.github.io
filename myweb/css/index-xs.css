@@ -1,11 +1,13 @@
 .mainimage{
     height: 500px;
 }
+/*blackbox*/
+.blackbox{
+    padding-top: 60px;
+    padding-bottom: 340px;
+}
 .vbox{
     width: 538px;
-}
-.boxes{
-    width: 419px;
 }
 .quotation{
     padding-top: 50px;

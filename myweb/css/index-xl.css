@@ -1,9 +1,12 @@
 .mainimage{
     height: 900px;
 }
-.boxes{
-    width:278px;
+/*blackbox*/
+.blackbox{
+    padding-top: 180px;
+    padding-bottom: 340px;
 }
+
 .vbox{
     width: 348px;
 }
