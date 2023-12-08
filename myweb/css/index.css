@@ -95,7 +95,7 @@ html,body{
     box-sizing: border-box;
 }
 ul,li{
-    list-style-type: none;
+    list-style-type: none ;
 }
 .tf2{
     font-size: calc(1.5vw + 1px);
@@ -278,13 +278,17 @@ ul,li{
     background: transparent;
 }
 /*footer*/
-.foot1{
+.foot1,
+.foot2{
     background-color:  rgb(20, 36, 51);
 }
-.menu_links ul li a {
+.footmenu ul li a {
     font-size: 15px;
     font-weight: 500;
 }
-.footer .footer_top .menu_links ul li a:hover {
+.footer .footer_top .footmenu ul li a:hover {
     color: #615CFD;
+}
+.foot2 .line2{
+    border-top: 1px solid #334A60;
 }
