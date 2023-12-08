@@ -1,6 +1,10 @@
 .mainimage{
     height: 900px;
 }
+/*boxes*/
+.boxes{
+    width: 218px;
+}
 /*blackbox*/
 .blackbox{
     padding-top: 180px;
