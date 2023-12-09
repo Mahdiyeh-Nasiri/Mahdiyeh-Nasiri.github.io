@@ -1,4 +1,4 @@
-@media (min-width: 992px) {
+
     .navbar-brand
     {
         position:absolute;
@@ -17,7 +17,7 @@
         display:d-flex;
         justify-content:center;
     }
-}
+
 .logo{
     width:133px;
 }
