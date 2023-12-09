@@ -163,7 +163,7 @@ ul,li{
 /*service provider*/
     .line{
         width: 1px;
-        height:75px;
+        height:3vh;
     }
     .tf2{
         font-size: calc(1.5vw + 2px);
@@ -341,14 +341,18 @@ ul,li{
     background-color:  rgb(20, 36, 51);
 }
 .footmenu ul li a {
-    font-size: 15px;
+    font-size: calc(1vw + 5px);
     font-weight: 500;
+    color: white;
 }
-.footer .footer_top .footmenu ul li a:hover {
+.footmenu ul li a:hover {
     color: #615CFD;
 }
 .foot2 .line2{
     border-top: 1px solid #334A60;
+}
+.foot2 p{
+    font-size: calc(1vw + 5px);
 }
 .footer .rounded-circle{
     width: 38px;
