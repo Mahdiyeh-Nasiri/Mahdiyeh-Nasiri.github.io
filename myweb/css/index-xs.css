@@ -27,6 +27,12 @@
     top: 12px;
     left: 0;
 }
+.nav-link{
+    font-size:calc(1vw + 7px);
+    }
+    .navbar-toggler span{
+        font-size:calc(1vw + 7px);
+    }
 /*blackbox*/
 .blackbox{
     padding-top: 60px;

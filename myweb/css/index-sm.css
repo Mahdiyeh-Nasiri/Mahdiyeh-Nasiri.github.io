@@ -21,6 +21,12 @@
 .mainimage{
     height: 500px;
 }
+.nav-link{
+font-size:calc(2vw + 3px);
+}
+.navbar-toggler span{
+    font-size:calc(2vw + 3px);
+}
 .person{
     width: 344px;
     height: 344px;
