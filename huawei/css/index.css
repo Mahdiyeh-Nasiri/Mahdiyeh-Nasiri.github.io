@@ -47,6 +47,15 @@ body {
         min-width: 180px;
     }
 }
+.blck a i,.blck a p{
+    color: rgb(182, 180, 180);
+}
+.blck a:hover{
+    background-color: #bfb8b8;
+}
+.blck a:hover .blcktxt{
+    color:black;
+}
 .search{
     margin-right:20%;
 }
