@@ -12,6 +12,12 @@
     padding-top: 60px;
     padding-bottom: 340px;
 }
+.bigimagebox{
+    margin-top:-420px;
+}
+.btn-outline-primary{
+    font-size:13px;
+}
 .quotation{
     padding-top: 50px;
     padding-bottom: 50px;

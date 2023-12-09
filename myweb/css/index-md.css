@@ -16,6 +16,12 @@
     padding-top: 180px;
     padding-bottom: 340px;
 }
+.bigimagebox{
+    margin-top:-470px;
+}
+.btn-outline-primary{
+    font-size:calc(1.5vw + 1px);
+}
 .vbox{
     width: 208px;
 }

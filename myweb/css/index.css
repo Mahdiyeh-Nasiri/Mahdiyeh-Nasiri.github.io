@@ -165,7 +165,7 @@ ul,li{
         height:75px;
     }
     .tf2{
-        font-size: calc(1vw + 2px);
+        font-size: calc(1.5vw + 2px);
         font-family: 'muliextralight';
     }
     .tf3{
@@ -198,11 +198,10 @@ ul,li{
         }
 
 .btn-outline-primary{
+    font-family: 'muliextralight';
     border-radius: 0;
-}
-
-.bigimagebox{
-    margin-top:-470px;
+    width: 107px;
+    height: 36px;
 }
 
 .bigimagebox .oneimage {
@@ -248,32 +247,32 @@ ul,li{
     .about-text h3 {
         font-weight: 700;
         font-family: 'mulibold';
-        font-size: 50px;
+        font-size: calc(3vw + 10px);
         line-height: 60px;
     }
     .about-text p {
         color: rgb(101, 101, 101);
-        font-size: 17px;
+        font-size: calc(1vw + 7px);
         line-height: 28px;
         font-weight: 400;
         font-style: normal;
         margin-top: 20px;
         margin-bottom: 36px;
     }
-    .dn-cv a {
-        display: block;
-        width: 200px;
-        height: 70px;
+    .dn-cv{
+        width: 150px;
+        height:50px;
         color: #fff;
         border: 1px solid #615CFD;
+        border-radius: 0;
         background-color: #615CFD;
-        font-size: 19px;
+        font-size: calc(1vw + 9px);
         font-family: 'mulilight';
         font-weight: 400;
         line-height: 70px;
         transition: 0.3s;
     }
-    .dn-cv a:hover {
+    .dn-cv:hover {
         color: #615CFD;
         background-color: #fff;
         transition: 0.3s;
@@ -284,11 +283,6 @@ ul,li{
         margin-left: 22%;
         opacity: 10%;
         top:-70px;
-    }
-    .gerdali{
-        right: 0%;
-        bottom:50%;
-        z-index: 2;
     }
 
 /*quotation*/
