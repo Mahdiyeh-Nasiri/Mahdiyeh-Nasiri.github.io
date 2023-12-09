@@ -143,6 +143,7 @@ ul,li{
     width: 38px;
     height: 38px;
     border: 1px solid rgb(140, 140, 140);
+    background-color: transparent;
 }
 .bordcir:hover{
     border:none;
@@ -284,6 +285,17 @@ ul,li{
         opacity: 10%;
         top:-70px;
     }
+/*viewer*/
+    .viewer .text-primary{
+        font-family: 'mulibold';
+        font-size: calc(2vw + 7px);
+        font-weight: bolder;
+    }
+    .viewer .text-secondary{
+        font-family: 'muliregular';
+        font-size: calc(1vw + 5px);
+
+    }
 
 /*quotation*/
     .quotation{
@@ -302,13 +314,12 @@ ul,li{
 /*discuss*/
 .discuss{
     background-color:  rgb(20, 36, 51);
-    padding-top: 150px;
-    padding-bottom: 50px;
 }
 .dsc-btn {
     background: #615CFD;
+    font-size: calc(1vw + 9px);
     padding: 14px 38px;
-    font-family: 'muliregular';
+    font-family: 'mulilight';
     font-weight: 500;
     border: 1px solid transparent;
     border-radius: 0px;
@@ -338,4 +349,15 @@ ul,li{
 }
 .foot2 .line2{
     border-top: 1px solid #334A60;
+}
+.footer .rounded-circle{
+    width: 38px;
+    height: 38px;
+    border: 1px solid rgb(140, 140, 140);
+    background-color: transparent;
+}
+.footer .rounded-circle:hover{
+    border:none;
+    background-color: #615CFD;
+    transition: 1s ease-in-out;
 }
