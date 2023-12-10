@@ -22,7 +22,7 @@
 </head>
 <body>
     <div class="container-fluid mx-0 px-0">
-        <div class="row mx-0 d-none d-lg-block #home">
+        <div class="row mx-0 d-none d-lg-block"  id="home">
             <div class="col-12 bg-dark">
                 <div class="blck d-flex justify-content-end pe-3">
                     <a href="#home" class="text-decoration-none">
@@ -48,22 +48,18 @@
                 </div>
             </div>
         </div>
-        <div>
-            <div class="answer text-center position-fixed mb-4">
-                <a href="">
+        <div class="fixicons d-flex flex-column justify-content-between">
+                <a class="answer text-center" href="#home">
                 <i class="bi bi-headset" style="font-size:33px; color:bisque;"></i>
                 </a>
-            </div>
-            <div class="arrow text-center position-fixed">
-                <a href="">
+                <a class="arrow text-center" href="#home">
                    <i class="bi bi-chevron-compact-up" style="font-size:33px; color:bisque;"></i>
                 </a>
-            </div>
         </div>
         <!--  row ==> navbar -->
         <div class="row mx-0 px-0">
             <div class="col-lg-12 d-lg-flex justify-content-lg-around align-items-center px-0">
-                    <nav class="navbar navbar-expand-lg d-none d-lg-block d-flex justify-content-center w-100">
+                    <nav class="navbar navbar-expand-lg d-none d-lg-block d-flex justify-content-center w-100"  id="home">
                         <div class="container-fluid custom-nav ">
                             <img src="images/huawei_logo.webp" class="logo d-none d-lg-block">
                           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -191,13 +187,13 @@
                     <img src="images/watch-gt4-en-22.avif" class="banner1-2 img-fluid w-100 d-block d-lg-none">
                 </div>
                 <div class="p-0 m-0 d-flex justify-content-center">
-                     <button type="button" class="l1 col-2 border-2 border-black text-center text-uppercase position-absolute text-nowrap lh-1 px-0 py-2">learn more</button>
+                     <button type="button" class="btn l1 col-2 border-1 rounded-0 border-black text-center text-uppercase position-absolute text-nowrap lh-1 px-0 py-2">learn more</button>
                 </div>
             </div>      
          <!--  row ==> whatsnew -->
          <div class="row mb-5 mx-0 px-0">
             <div class="col-12 px-0">
-              <div class="what text-center text-capitalize fw-bold py-1 px-0 fs-2 position-relative">What's New</div>
+              <div class="what text-center text-capitalize fw-bold py-1 px-0 position-relative">What's New</div>
               <div class="whatline mt-0 mx-auto "></div>
             </div>
         </div>
@@ -299,11 +295,11 @@
         <div class="row position-relative mb-5 mx-0">
                     <div class="col-12 px-0">
                         <img src="images/yellow-river-delta-oriental-stork-en2 (1).avif" class="banner1-1 img-fluid d-none d-lg-block">
-                        <a href="" class="d-block d-lg-none">
+                        <a href="#home" class="d-block d-lg-none">
                             <img src="images/yellow-river-delta-oriental-stork-en-m2.avif" class="banner1-2 img-fluid w-100 d-block d-lg-none">
                         </a>
                     </div>
-                    <button type="button" class="l2 col-2 border-2 text-center text-capitalize position-absolute text-nowrap lh-1 py-2 d-none d-lg-block">learn more</button>
+                    <button type="button" class="btn rounded-0 l2 col-2 border-2 text-center text-capitalize position-absolute text-nowrap lh-1 py-2 d-none d-lg-block">learn more</button>
         </div>
 <!--  row ==> events -->
         <div class="row mb-5 mx-0">
@@ -316,36 +312,36 @@
         <div class="row rownews px-0 mx-0 my-2 overflow-hidden">
             <div class="col-lg-4 col-12 mb-3 px-2">
                 <div class="card news2 mx-1 my-0 rownews px-0 overflow-hidden r1">
-                    <div class="newsgrey text-light small text-uppercase position-absolute px-2 py-1">news</div>
+                    <div class="newsgrey text-light small text-uppercase position-absolute mx-0 px-2 py-1">news</div>
                     <img src="images/banner-list4.avif" class="card-img-top img-height" alt="...">
                     <div class="card-body bg-light text-capitalize">
                         <p class="card-title fw-bold text-capitalize text-dark">2023 Sustainability Forum</p>
                         <div class="my-3 text-capitalize">
-                            <i class="bi bi-geo-alt me-4" style="font-size: 17px;"><span class="fs-9 small text-nowrap"> dongguan,china</span></i>
+                            <i class="bi bi-geo-alt me-4" style="font-size: 17px;"><span class=" small text-nowrap"> dongguan,china</span></i>
                             <br class="brrrrrr">
-                            <i class="bi bi-calendar4-week" style="font-size: 17px;"><span class="fs-9 small text-nowrap"> NOV 21,2023</span></i>
+                            <i class="bi bi-calendar4-week" style="font-size: 17px;"><span class=" small text-nowrap"> NOV 21,2023</span></i>
                         </div>
-                        <h6 class="card-text text-secondary fs-8 fst-normal lh-md">How can digital technology protect the environment and boost economic development, driving digital inclusion and...</h6>
+                        <h6 class="card-text text-secondary fst-normal lh-md">How can digital technology protect the environment and boost economic development, driving digital inclusion and...</h6>
                     </div>
-                </div>
             </div>
-            <div class="col-lg-4 col-md-12 mb-3 px-2">
+            </div>
+                        <div class="col-lg-4 col-md-12 mb-3 px-2">
                 <div class="card news2 mx-1 my-0 rownews overflow-hidden r2">
-                    <div class="newsgrey text-light small text-uppercase position-absolute px-2 py-1">news</div>
+                    <div class="newsgrey text-light small text-uppercase  position-absolute mx-0 px-2 py-1">news</div>
                     <img src="images/banner-list3.avif" class="card-img-top img-height" alt="...">
                     <div class="card-body bg-light  text-decoration-none">
                         <p class="card-title fw-bold text-capitalize text-dark">5G Core Summit 2023 </p>
                         <div class="my-3 text-capitalize">
-                            <i class="bi bi-geo-alt me-3" style="font-size: 17px;"><span class="fs-9 small text-nowrap"> istanbul,turkey</span></i>
+                            <i class="bi bi-geo-alt me-3" style="font-size: 17px;"><span class=" small text-nowrap"> istanbul,turkey</span></i>
                             <br class="brrrrrr">
-                            <i class="bi bi-calendar4-week" style="font-size: 17px;"><span class="fs-9 small text-nowrap"> NOV 14 - 15,2023</span> </i>
+                            <i class="bi bi-calendar4-week" style="font-size: 17px;"><span class=" small text-nowrap"> NOV 14 - 15,2023</span> </i>
                         </div>
-                        <h6 class="card-text text-secondary fs-8 fst-normal lh-md">Themed "Intelligence Lights Up 5.5G Core", the 8th 5G Core Summit will run from November 14 to 15 in Istanbul, Türkiye. </h6>
+                        <h6 class="card-text text-secondary fst-normal lh-md">Themed "Intelligence Lights Up 5.5G Core", the 8th 5G Core Summit will run from November 14 to 15 in Istanbul, Türkiye. </h6>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-12 rownews rownews2height bg-light position-relative overflow-y-scroll scroll px-3">
-                <div class="newsgrey text-light small text-uppercase position-absolute px-2 py-1">news</div>
+                <div class="newsgrey text-light small text-uppercase sticky-top px-2 py-1">news</div>
                 <nav id="navbar-example2" class="navbar bg-light d-none">
                     <a class="navbar-brand" href="#">Navbar</a>
                        <li class="nav-item">
@@ -398,8 +394,8 @@
 <!--button-->
        <div class="row mb-5 mx-0">
             <div class="col-12 d-flex justify-content-center align-items-center mt-5">
-                <button type="button" class="l3 col-6 text-center text-capitalize text-nowrap lh-1 me-3">more events</button>
-                <button type="button" class="l4 col-6 text-center text-capitalize text-nowrap lh-1">more news</button>
+                <button type="button" class="btn  rounded-0 l3 col-6 text-center text-capitalize text-nowrap lh-1 me-3">more events</button>
+                <button type="button" class="btn rounded-0 l4 col-6 text-center text-capitalize text-nowrap lh-1">more news</button>
             </div>
         </div>
 <!-- Footer -->
@@ -407,7 +403,7 @@
         <div class="row pt-3 m-0 px-5 mx-5">
                 <div class="col-6">
                     <p class="text-muted opacity-50 mt-4">
-                        <a href="" class="text-reset text-decoration-none text-uppercase fw-bold">home  </a>
+                        <a href="#home" class="text-reset text-decoration-none text-uppercase fw-bold">home  </a>
                     </p>
                 </div>
                 <div class="col-5 justify-content-right">
@@ -426,25 +422,25 @@
                     about huawei
                     </h6>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">our company</a>
+                    <a href="#home" class="text-reset text-decoration-none small">our company</a>
                     </p>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">Sustainability</a>
+                    <a href="#home" class="text-reset text-decoration-none small">Sustainability</a>
                     </p>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">trust center</a>
+                    <a href="#home" class="text-reset text-decoration-none small">trust center</a>
                     </p>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">executives</a>
+                    <a href="#home" class="text-reset text-decoration-none small">executives</a>
                     </p>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">Careers </a>
+                    <a href="#home" class="text-reset text-decoration-none small">Careers </a>
                     </p>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">Suppliers </a>
+                    <a href="#home" class="text-reset text-decoration-none small">Suppliers </a>
                     </p>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">See More<i class="bi bi-chevron-right go-right" style="font-size: 10px; color: black;"></i></a>
+                    <a href="#home" class="text-reset text-decoration-none small">See More<i class="bi bi-chevron-right go-right" style="font-size: 10px; color: black;"></i></a>
                      </p>
                 </div>
                 <div class="col-2">
@@ -452,10 +448,10 @@
                     news & events
                     </h6>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">media center</a>
+                    <a href="#home" class="text-reset text-decoration-none small">media center</a>
                     </p>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">events</a>
+                    <a href="#home" class="text-reset text-decoration-none small">events</a>
                     </p>
                 </div>
                 <div class="col-2">
@@ -463,22 +459,22 @@
                     explore huawei
                     </h6>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">huaweiTech</a>
+                    <a href="#home" class="text-reset text-decoration-none small">huaweiTech</a>
                     </p>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">Thrive with Digital </a>
+                    <a href="#home" class="text-reset text-decoration-none small">Thrive with Digital </a>
                     </p>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">Intelligent World 2030 </a>
+                    <a href="#home" class="text-reset text-decoration-none small">Intelligent World 2030 </a>
                     </p>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">Striding Towards </a>
+                    <a href="#home" class="text-reset text-decoration-none small">Striding Towards </a>
                     </p>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">Huawei blog </a>
+                    <a href="#home" class="text-reset text-decoration-none small">Huawei blog </a>
                     </p>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">Publications  </a>
+                    <a href="#home" class="text-reset text-decoration-none small">Publications  </a>
                     </p>
                 </div>
                 <div class="col-2">
@@ -486,16 +482,16 @@
                     products
                     </h6>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">consumer</a>
+                    <a href="#home" class="text-reset text-decoration-none small">consumer</a>
                     </p>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">enterprise </a>
+                    <a href="#home" class="text-reset text-decoration-none small">enterprise </a>
                     </p>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">carrier </a>
+                    <a href="#home" class="text-reset text-decoration-none small">carrier </a>
                     </p>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">Huawei Cloud </a>
+                    <a href="#home" class="text-reset text-decoration-none small">Huawei Cloud </a>
                     </p>
                 </div>
                 <div class="col-2">
@@ -503,19 +499,19 @@
                         Support 
                     </h6>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">Consumer Support </a>
+                    <a href="#home" class="text-reset text-decoration-none small">Consumer Support </a>
                     </p>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">Huawei Cloud Support  </a>
+                    <a href="#home" class="text-reset text-decoration-none small">Huawei Cloud Support  </a>
                     </p>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">Enterprise Support  </a>
+                    <a href="#home" class="text-reset text-decoration-none small">Enterprise Support  </a>
                     </p>
                     <p class="text-black text-capitalize">
-                    <a href="" class="text-reset text-decoration-none small">Carrier Support  </a>
+                    <a href="#home" class="text-reset text-decoration-none small">Carrier Support  </a>
                     </p>
                     <p class="text-black text-capitalize">
-                        <a href="" class="text-reset text-decoration-none small">Security Incidente</a>
+                        <a href="#home" class="text-reset text-decoration-none small">Security Incidente</a>
                         </p>
                 </div>
 
@@ -525,26 +521,26 @@
             <div class="row py-4 px-5 mx-5">
                 <div class="col-6 d-flex justify-content-start">
                     <p class="text-muted me-5">
-                        <a href="" class="text-reset text-decoration-none text-capitalize"> huawei cloud </a>
+                        <a href="#home" class="text-reset text-decoration-none text-capitalize"> huawei cloud </a>
                     </p>
                     <p class="text-muted">
-                        <a href="" class="text-reset text-decoration-none text-capitalize">fusion solar smartPV  </a>
+                        <a href="#home" class="text-reset text-decoration-none text-capitalize">fusion solar smartPV  </a>
                     </p>
                 </div>
                 <div class="col-6 d-flex justify-content-end">
-                    <a href="" class="me-3 text-reset text-decoration-none">
+                    <a href="#home" class="me-3 text-reset text-decoration-none">
                         <i class="bi bi-linkedin social" style="font-size: 30px;"></i>
                     </a>
-                    <a href="" class="me-3 text-reset text-decoration-none">
+                    <a href="#home" class="me-3 text-reset text-decoration-none">
                         <i class="bi bi-facebook social" style="font-size: 30px;"></i>
                     </a>
-                    <a href="" class="me-3 text-reset text-decoration-none">
+                    <a href="#home" class="me-3 text-reset text-decoration-none">
                         <i class="bi bi-twitter-x social" style="font-size: 30px;"></i>
                     </a>
-                    <a href="" class="me-3 text-reset text-decoration-none">
+                    <a href="#home" class="me-3 text-reset text-decoration-none">
                         <i class="bi bi-youtube social" style="font-size: 30px;"></i>
                     </a>
-                    <a href="" class="me-3 text-reset text-decoration-none">
+                    <a href="#home" class="me-3 text-reset text-decoration-none">
                         <i class="bi bi-instagram social" style="font-size: 30px;"></i>
                     </a>
                 </div>
@@ -554,16 +550,16 @@
                     <div class="text-decoration-none text-muted border-dark border-end-2 d-inline me-5">
                         ©2023 Huawei Technologies Co., Ltd.
                     </div>
-                    <a href="" class="me-2 text-decoration-none text-muted">
+                    <a href="#home" class="me-2 text-decoration-none text-muted">
                         Contact 
                     </a>
-                    <a href="" class="me-2 text-decoration-none text-muted">
+                    <a href="#home" class="me-2 text-decoration-none text-muted">
                         Terms of Use 
                     </a>
-                    <a href="" class="me-2 text-decoration-none text-muted">
+                    <a href="#home" class="me-2 text-decoration-none text-muted">
                         Privacy 
                     </a>
-                    <a href="" class="me-2 text-decoration-none text-muted">
+                    <a href="#home" class="me-2 text-decoration-none text-muted">
                         Cookies 
                     </a>
                 </div>
@@ -587,12 +583,12 @@
                           <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingone" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body m-0 p-0">
                                 <ul class="bg-light d-flex flex-column horizontal-border-bottom px-0 mx-0">
-                                    <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">our company</a></li>
-                                    <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">Sustainability</a></li>
-                                    <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">trust center</a></li>
-                                    <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">executives</a></li>
-                                    <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">Careers</a></li>
-                                    <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">See more > </a></li>
+                                    <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">our company</a></li>
+                                    <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">Sustainability</a></li>
+                                    <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">trust center</a></li>
+                                    <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">executives</a></li>
+                                    <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">Careers</a></li>
+                                    <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">See more > </a></li>
                                 </ul>
                             </div>
                           </div>
@@ -606,8 +602,8 @@
                             <div id="flush-collapsetwo" class="accordion-collapse collapse" aria-labelledby="flush-headingtwo" data-bs-parent="#accordionFlushExample">
                               <div class="accordion-body m-0 p-0">
                                   <ul class="bg-light d-flex flex-column horizontal-border-bottom px-0 mx-0">
-                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">media center</a></li>
-                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">events</a></li>
+                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">media center</a></li>
+                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">events</a></li>
                                   </ul>
                               </div>
                             </div>
@@ -621,12 +617,12 @@
                             <div id="flush-collapsethird" class="accordion-collapse collapse" aria-labelledby="flush-headingthird" data-bs-parent="#accordionFlushExample">
                               <div class="accordion-body m-0 p-0">
                                   <ul class="bg-light d-flex flex-column horizontal-border-bottom px-0 mx-0">
-                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">huaweiTech</a></li>
-                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">Thrive with Digital</a></li>
-                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">Intelligent World 2030</a></li>
-                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">Striding Towards the Intelligent World</a></li>
-                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">Huawei Blog</a></li>
-                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">Publications</a></li>
+                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">huaweiTech</a></li>
+                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">Thrive with Digital</a></li>
+                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">Intelligent World 2030</a></li>
+                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">Striding Towards the Intelligent World</a></li>
+                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">Huawei Blog</a></li>
+                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">Publications</a></li>
                                   </ul>
                               </div>
                             </div>
@@ -640,10 +636,10 @@
                             <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour"data-bs-parent="#accordionFlushExample">
                               <div class="accordion-body m-0 p-0">
                                   <ul class="bg-light d-flex flex-column horizontal-border-bottom px-0 mx-0">
-                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">consumer</a></li>
-                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">Enterprise</a></li>
-                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">Carrier</a></li>
-                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">Huawei Cloud</a></li>
+                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">consumer</a></li>
+                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">Enterprise</a></li>
+                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">Carrier</a></li>
+                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">Huawei Cloud</a></li>
                                   </ul>
                               </div>
                             </div>
@@ -657,11 +653,11 @@
                             <div id="flush-collapsefive" class="accordion-collapse collapse"  aria-labelledby="flush-headingfive"data-bs-parent="#accordionFlushExample">
                               <div class="accordion-body m-0 p-0">
                                   <ul class="bg-light d-flex flex-column horizontal-border-bottom px-0 mx-0">
-                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">Consumer Support</a></li>
-                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">Huawei Cloud Support</a></li>
-                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">Enterprise Support</a></li>
-                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">Carrier Support</a></li>
-                                      <li class="p-1 "><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="">Security Incident Response</a></li>
+                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">Consumer Support</a></li>
+                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">Huawei Cloud Support</a></li>
+                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">Enterprise Support</a></li>
+                                      <li class="p-1"><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">Carrier Support</a></li>
+                                      <li class="p-1 "><a class=" text-decoration-none mx-0 ps-3 py-3 text-secondary small text-capitalize" href="#home">Security Incident Response</a></li>
                                   </ul>
                               </div>
                             </div>
@@ -669,26 +665,26 @@
                         <div class="row py-4 px-5 mx-5">
                             <div class="col-12 d-flex justify-content-center text-center">
                                 <p class="text-muted me-5 mb-3">
-                                    <a href="" class="text-reset text-decoration-none text-capitalize text-nowrap small"> huawei cloud </a>
+                                    <a href="#home" class="text-reset text-decoration-none text-capitalize text-nowrap small"> huawei cloud </a>
                                 </p>
                                 <p class="text-muted">
-                                    <a href="" class="text-reset text-decoration-none text-capitalize text-nowrap small">fusion solar smartPV  </a>
+                                    <a href="#home" class="text-reset text-decoration-none text-capitalize text-nowrap small">fusion solar smartPV  </a>
                                 </p>
                             </div>
                             <div class="col-12 d-flex justify-content-center  text-center">
-                                <a href="" class="me-3 text-reset text-decoration-none">
+                                <a href="#home" class="me-3 text-reset text-decoration-none">
                                     <i class="bi bi-linkedin social" style="font-size: 30px;"></i>
                                 </a>
-                                <a href="" class="me-3 text-reset text-decoration-none">
+                                <a href="#home" class="me-3 text-reset text-decoration-none">
                                     <i class="bi bi-facebook social" style="font-size: 30px;"></i>
                                 </a>
-                                <a href="" class="me-3 text-reset text-decoration-none">
+                                <a href="#home" class="me-3 text-reset text-decoration-none">
                                     <i class="bi bi-twitter-x social" style="font-size: 30px;"></i>
                                 </a>
-                                <a href="" class="me-3 text-reset text-decoration-none">
+                                <a href="#home" class="me-3 text-reset text-decoration-none">
                                     <i class="bi bi-youtube social" style="font-size: 30px;"></i>
                                 </a>
-                                <a href="" class="me-3 text-reset text-decoration-none">
+                                <a href="#home" class="me-3 text-reset text-decoration-none">
                                     <i class="bi bi-instagram social" style="font-size: 30px;"></i>
                                 </a>
                             </div>
@@ -699,16 +695,16 @@
                                     ©2023 Huawei Technologies Co., Ltd.
                                 </div>
                                 <div class="col-12 text-decoration-none text-muted border-dark border-end-2 d-inline me-5 flex-nowrap small">
-                                <a href="" class="me-2 text-decoration-none text-muted">
+                                <a href="#home" class="me-2 text-decoration-none text-muted">
                                     Contact 
                                 </a>
-                                <a href="" class="me-2 text-decoration-none text-muted">
+                                <a href="#home" class="me-2 text-decoration-none text-muted">
                                     Terms of Use 
                                 </a>
-                                <a href="" class="me-2 text-decoration-none text-muted">
+                                <a href="#home" class="me-2 text-decoration-none text-muted">
                                     Privacy 
                                 </a>
-                                <a href="" class="me-2 text-decoration-none text-muted">
+                                <a href="#home" class="me-2 text-decoration-none text-muted">
                                     Cookies 
                                 </a>
                                 </div>

@@ -1,4 +1,13 @@
-
+@media all and (max-width:340px) {
+    .brrrrrr {
+        display: block;
+    }
+}
+@media all and (min-width:340px) {
+    .brrrrrr {
+        display: none;
+    }
+}
             .nav-icons{
             position: absolute;
             right:60px;
@@ -14,7 +23,9 @@
             border:1px solid grey;
             border-radius: 50%;
             }
-
+            .navbar-toggler:focus{
+                box-shadow: none;
+              }
 
 .logo{
     width:103px;
@@ -24,13 +35,13 @@
     min-width: 140px;
 }
 .gallery2 p{
-font-size: 3vw;
+    font-size:calc(1vw + 7px);
 }
 .gallery2 h4{
-font-size: 4vw;
+    font-size:calc(1vw + 10px);
 }
 .gallery2 .card-body h5{
-    font-size:3.5vw;
+    font-size:calc(1vw + 10px);
 }
  /*morenews*/
  .l3,

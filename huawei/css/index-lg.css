@@ -16,7 +16,9 @@
     .navbar ul{
         width: 100%;
     }
-
+    .index-banner .slick .slide a.btn-more {
+        min-width: 180px;
+    }
 .logo{
     width:133px;
 }

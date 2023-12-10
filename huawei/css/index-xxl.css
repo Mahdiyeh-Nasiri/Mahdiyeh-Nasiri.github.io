@@ -17,7 +17,9 @@
         display:d-flex;
         justify-content:center;
     }
-
+    .index-banner .slick .slide a.btn-more {
+        min-width: 180px;
+    }
 .logo{
     width:133px;
 }

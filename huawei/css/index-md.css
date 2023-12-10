@@ -14,7 +14,15 @@
       border:1px solid grey;
       border-radius: 50%;
       }
-
+      .gallery2 p{
+         font-size:calc(1vw + 12px);
+     }
+     .gallery2 h4{
+         font-size:calc(1vw + 15px);
+     }
+     .gallery2 .card-body h5{
+         font-size:calc(1vw + 15px);
+     }
 .logo{
     width:103px;
 }
@@ -34,4 +42,7 @@
 
  .img-height{
     height: 300px;
+ }
+ .navbar-toggler:focus{
+   box-shadow: none;
  }

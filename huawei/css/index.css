@@ -7,16 +7,7 @@
     url("https://db.onlinewebfonts.com/t/08dd84ac7cbc31484a901d60c8c2c205.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/08dd84ac7cbc31484a901d60c8c2c205.svg#Huawei Sans")format("svg");
 }
-@media all and (max-width:340px) {
-    .brrrrrr {
-        display: block;
-    }
-}
-@media all and (min-width:340px) {
-    .brrrrrr {
-        display: none;
-    }
-}
+
 *{
     padding: 0;
     margin: 0;
@@ -35,6 +26,9 @@ html,
 body {
     font-family: "Huawei Sans";
 }
+body{
+    scroll-behavior:smooth;
+}
 .content-box .panel-img-box .text-box .name,
 .col-item .textbox .title,
 .news-item a h4 {
@@ -42,13 +36,11 @@ body {
     font-weight: normal !important;
 }
 
-@media (min-width: 992px) {
-    .index-banner .slick .slide a.btn-more {
-        min-width: 180px;
-    }
-}
 .blck a i,.blck a p{
     color: rgb(182, 180, 180);
+}
+.blck a{
+        transition:all 300ms ease 0s;
 }
 .blck a:hover{
     background-color: #bfb8b8;
@@ -60,7 +52,7 @@ body {
     margin-right:20%;
 }
     .nav-link.active {
-        border-bottom: 2px solid #007bff; /* Change the color as needed */
+        border-bottom: 2px solid #007bff;
       }
     .nav-link:hover .bi-chevron-down{
         display: inline-block;
@@ -79,7 +71,18 @@ body {
 /* banner learn more*/
     .l1{
         width:13vw;
-        font-size: 0.875em;
+        font-size:calc(1vw + 7px);
+    }
+    .l2{
+        font-size:calc(1vw + 7px);
+    }
+    .l1,
+    .l2,
+    .l3,
+    .l4
+    {
+        transition:all 300ms ease 0s;
+        font-size:calc(1vw + 7px);
     }
     .l1:hover,
     .l2:hover,
@@ -95,6 +98,9 @@ body {
     height: 2px;
     background-color: #c7000b;
 }
+.what{
+    font-size:calc(2vw + 7px);
+}
 /*gallery*/
 p {
     text-align: justify;
@@ -103,6 +109,12 @@ p {
     color: white;
     bottom: 20%;
 }
+.mask p{
+    font-size:calc(1vw + 4px);
+}
+.mask h4{
+    font-size:calc(1vw + 8px);
+}
 h4{
     bottom: 13%;
     color: white;
@@ -110,12 +122,19 @@ h4{
 .content{
     color: white;
 }
+.image img{
+        color: white;
+        transition:all 1s ease 0s ;
+}
 .content:hover .image img{
     transform: scale(1.02);
 }
 .mask{
     background: linear-gradient(0deg , #000000 0%, #000000 65%,#00000000 100%);
     top:80%;
+    transition: 0.5s;
+}
+.mask2{
     transition: 0.5s;
 }
 .content:hover .mask{
@@ -169,9 +188,30 @@ h4{
  .scroll p{
     color:rgb(58, 57, 57);
 }
+.scrollho h5,
+.scrollho p{
+   transition: 0.5s;
+}
  .scrollho:hover h5,
  .scrollho:hover p{
     color:#dc3545;
+ }
+ .l3,
+ .l4
+ {
+     font-size:calc(1vw + 4px);
+ }
+ .scrollho h5,
+ .card-title{
+    font-size: calc(1vw + 8px);
+    font-weight: bold;
+ }
+ .card-body i span,
+ .scrollho p{
+    font-size: calc(1vw + 6px);
+ }
+ .card-body h6{
+    font-size: calc(1vw + 6px);
  }
  .rowbutton{
     top: 80px;
@@ -210,6 +250,7 @@ h4{
 
   .social{
   color: rgb(106, 118, 131);
+  transition: 0.8s;
   }
   .social:hover{
    color:rgb(71, 68, 68);
@@ -222,27 +263,32 @@ h4{
     background-color: #7b7b7b;
     width: 44px;
     height: 44px;
-    bottom: 20%;
-    right: 0;
-    z-index: 2000;
   }
   .answer{
     background-color: rgb(226, 69, 69);
     width: 44px;
     height: 44px;
-    bottom: 28%;
-    right: 0;
-    z-index: 2000;
   }
+  .fixicons{
+    position:fixed;
+    height:120px;
+    bottom:50px;
+    right: 0;
+    z-index:5;
+  }
+  .r1 img,
+  .r2 img{
+    transition:all 1s ease 0s;
+}
   .r1:hover img,
   .r2:hover img{
     transform: scale(1.02);
 }
 .newsgrey{
+    width: 60px;
     height: 30px;
     background-color: #818181;
-    top:0;
-    left:0;
     z-index: 1000;
+    margin-left: -17px;
 }
   

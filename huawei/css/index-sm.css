@@ -14,8 +14,18 @@
          border:1px solid grey;
          border-radius: 50%;
          }
-
-
+         .navbar-toggler:focus{
+            box-shadow: none;
+          }
+          .gallery2 p{
+            font-size:calc(1vw + 10px);
+        }
+        .gallery2 h4{
+            font-size:calc(1vw + 13px);
+        }
+        .gallery2 .card-body h5{
+            font-size:calc(1vw + 13px);
+        }
 
 .logo{
     width:103px;
