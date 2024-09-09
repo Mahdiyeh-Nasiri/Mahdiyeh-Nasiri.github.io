@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'iryekanr';
-    src: url('../fonts/iryekanr.eot');
+    font-family: 'roboto';
+    src: url('../font/roboto/Roboto-Black.ttf');
     /* IE9 Compat Modes */
     src: url('../fonts/iryekanr.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
@@ -106,7 +106,6 @@ img {
 
 .slider-container {
     width: 100%;
-    background-color: white;
     position: relative;
     display: flex;
     transition: all 3000ms ease;
@@ -114,7 +113,6 @@ img {
 
 .imageslide {
     width: 100%;
-    height: 100%;
     display: block;
     position: relative;
     flex: 0 0 100%;
@@ -277,7 +275,7 @@ img {
 
 .contactdivider>p:first-of-type {
     text-decoration: none;
-    font-family: 'iryekanr';
+    font-family: cursive;
     color: rgb(78, 78, 78);
     font-weight: 500;
     font-style: normal;
@@ -286,7 +284,7 @@ img {
 
 .contactdivider>p:nth-of-type(2) {
     text-decoration: none;
-    font-family: 'iryekanr';
+    font-family: cursive;
     color: rgb(131, 131, 131);
     font-weight: lighter;
     font-style: normal;
@@ -318,9 +316,9 @@ img {
     margin: 0;
 }
 
-.aparat {
-    width: 2.5vw;
-    height: 2.5vw;
+.aparat2 {
+    font-size: 2.5vw;
+    font-weight: lighter;
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
     -moz-filter: grayscale(1);
@@ -328,7 +326,7 @@ img {
     transition: all 0.3ms ease;
 }
 
-.aparat:hover {
+.aparat2:hover {
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
     -moz-filter: grayscale(0);
