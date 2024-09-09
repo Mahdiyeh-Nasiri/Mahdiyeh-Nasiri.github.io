@@ -1,8 +1,8 @@
 
 //navigation
 const NAVIGATION = document.querySelector(".menu");
-const ITEM_PRODUCT1 = document.querySelectorAll("li")[5];
-const ITEM_PRODUCT2 = document.querySelectorAll("li")[7];
+const ITEM_PRODUCT1 = document.querySelectorAll("li")[3];
+const ITEM_PRODUCT2 = document.querySelectorAll("li")[1];
 const MENU = document.querySelector(".menu-list");
 const SUBMENU_PRODUCT = document.querySelector(".products");
 const SUBMENU_SUPPORT = document.querySelector(".support");

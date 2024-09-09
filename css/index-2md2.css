@@ -19,12 +19,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-right: 5%;
-        padding-left: 5%;
+        padding:3% 5%;
         position: relative;
-        z-index: 120;
-        margin-bottom: 10px;
-        margin-top: 10px;
+        z-index: 1;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 15px -2px;
     }
 
     .slogan {
@@ -49,8 +47,9 @@
         justify-content: center;
         transition: all 300ms ease 0s;
         position: absolute;
-        transform: translate(-50%, 0);
         left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .bi-search {
@@ -90,6 +89,7 @@
         font-size: calc(2vw + 2px);
         color: rgb(179, 179, 179);
         text-align: center;
+        
     }
 
     .menu-list,
@@ -105,7 +105,7 @@
 
     .products {
         position: absolute;
-        width: 80%;
+        width: 20%;
         left: 50%;
         transform: translateX(-50%);
         background-color: rgb(255, 255, 255);
@@ -117,28 +117,27 @@
     }
 
     .products>.productstext>.item>p {
-        text-align: right;
-        font-family: 'iryekanr';
+        text-align: left;
+        font-family: sans-serif;
         font-size: calc(0.5vw + 3px);
-        font-weight: 500;
+        font-weight: bold;
         color: black;
     }
 
     .products>.productstext>.item>p:hover {
 
-        color: rgb(153, 205, 97);
+        color: rgb(5, 5, 172);
     }
 
     .productstext {
         width: 100%;
-        display: flex;
         justify-content: center;
         padding: 0;
+        padding-left: 5px;
     }
 
     .sublist>ul>li {
-        padding-bottom: 5px;
-        text-align: right;
+        text-align: left;
     }
 
     .sublist>ul>li>a {
@@ -147,27 +146,7 @@
         font-size: calc(0.5vw + 2px);
         color: black;
         text-wrap: nowrap;
-    }
 
-    .picmenu {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .picmenu>a {
-        width: 10%;
-        margin-left: 10px;
-    }
-
-    .picmenu>a:nth-last-child(1) {
-        margin-left: 0px;
-    }
-
-    .picmenu>a>img {
-        width: 100%;
     }
 
     .support {
@@ -200,26 +179,23 @@
     }
 
     .item-support>.sublist-support>ul>li {
-        height: 25px;
-        padding: 3px;
+        padding-left: 5px;
     }
 
     .item-support>.sublist-support>ul>li>a {
-        line-height: 8px;
-        text-align: right;
+        text-align: left;
         display: flex;
         align-items: center;
-        font-family: 'iryekanr';
+        font-family: sans-serif;
         font-size: calc(0.5vw + 3px);
-        font-weight: 500;
+        font-weight: bold;
         color: black;
         cursor: pointer;
         transition: all 300ms ease 0s;
-        padding-right: 5px;
     }
 
     .item-support>.sublist-support>ul>li>a:hover {
-        color: rgb(153, 205, 97);
+        color: rgb(5, 5, 172);
     }
 
     .show-submenu {
