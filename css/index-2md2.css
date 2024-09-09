@@ -279,11 +279,15 @@
         display: flex;
         justify-content: center;
         background-color: rgb(237, 237, 237);
-        padding: 20px 7%;
     }
 
     .content {
-        width: 16.6666%;
+        width: 100%;
+        position: relative;
+        height: 15vh;
+        overflow-x: hidden;
+        text-align: center;
+        line-height: 15vh;
     }
 
     .content>ul>li>a {
@@ -325,6 +329,46 @@
         display: flex;
         justify-content: space-between;
     }
+
+    /*hayal*/
+    .hayal{
+        font-size: calc(0.5vw + 8px);
+        font-family: sans-serif;
+        font-weight: bolder !important;
+        font-style: normal;
+        color: blue !important;
+        text-align: left;
+        text-wrap: nowrap;
+        position: absolute;
+            /* 8 property*/
+            animation-name: go;
+            animation-duration: 15s;
+            animation-iteration-count:infinite;
+            animation-direction: reverse;
+            animation-fill-mode:forwards;
+            animation-timing-function: ease;
+            animation-delay: 3s;
+            animation-play-state: running;
+            -moz-animation-name: go;
+             -moz-animation-duration: 15s;
+             -moz-animation-iteration-count: infinite;
+             -moz-animation-direction: reverse;
+             -moz-animation-fill-mode:forwards;
+             -moz-animation-timing-function: ease;
+             -moz-animation-delay: 3s;
+             -moz-animation-play-state: running;
+        }
+
+        @keyframes go{
+            from{
+                top:0;
+                left:100%;
+            }
+            to{
+                top:0;
+                left:0;
+            }
+        }
 
 }
 
