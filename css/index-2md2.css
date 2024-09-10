@@ -23,6 +23,7 @@
         position: relative;
         z-index: 1;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 15px -2px;
+        background-color: white;
     }
 
     .slogan {
