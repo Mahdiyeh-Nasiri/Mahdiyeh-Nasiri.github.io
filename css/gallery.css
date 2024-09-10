@@ -9,7 +9,7 @@
     margin-top: 30px;
 }
 .gallery3{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .photobox{
     width: 25%;
@@ -18,4 +18,25 @@
 }
 .photobox img{
     border-radius: 0% 25%;
+}
+.photobox:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 16px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.numbers{
+    display: flex;
+    justify-content: center;
+}
+.shomare{
+    width: calc(1vw + 12px);
+    height: calc(1vw + 12px);
+    background-color: rgb(177, 177, 177);
+    color: black;
+    font-size: calc(0.5vw + 9px);
+    text-align: center;
+    margin-right: 4px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.shomare:hover{
+    color: white;
+    cursor: pointer;
 }
